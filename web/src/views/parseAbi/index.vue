@@ -403,7 +403,6 @@ export default {
           type: item.type,
           name: item.argumentValue,
         });
-        debugger;
         console.log(dataType);
         inputsVal.push(dataType(item.type, item.argumentValue));
       });
